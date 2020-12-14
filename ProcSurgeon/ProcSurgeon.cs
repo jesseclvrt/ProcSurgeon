@@ -37,7 +37,8 @@ namespace ProcSurgeon {
             {
                 Optional = false
             };
-            ValueArgument<int> time = new ValueArgument<int>('m', "millis", "Milliseconds to wait after starting the target")
+            ValueArgument<int> time = new ValueArgument<int>('m', "millis", "How many milliseconds to log after starting the target." +
+                " If you do not include this parameter, ProcSurgeon will wait for the target process to exit.")
             {
                 DefaultValue = 0
             };
