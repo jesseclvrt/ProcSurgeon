@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ProcSurgeon": {
+      "commandName": "Project",
+      "commandLineArgs": "-p C:\\Users\\Jesse\\Downloads\\ProcessMonitor\\Procmon64.exe -t C:\\Windows\\system32\\notepad.exe -o C:\\Users\\Jesse\\Downloads\\ProcessMonitor\\log.pml"
+    }
+  }
+}
